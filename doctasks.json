@@ -1,0 +1,2104 @@
+[
+ {
+  "id": "t0",
+  "bundle": "backend",
+  "category": "services",
+  "title": "backend/services [1]",
+  "readmeDir": "reconstructed/backend/app/services",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/services/DefaultConnectionProvider.js",
+    "name": "DefaultConnectionProvider",
+    "bytes": 265,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/SingleConnectionProvider.js",
+    "name": "SingleConnectionProvider",
+    "bytes": 387,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/FileMigrationProvider.js",
+    "name": "FileMigrationProvider",
+    "bytes": 682,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getCacheControlService.js",
+    "name": "getCacheControlService",
+    "bytes": 217,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/cacheService.js",
+    "name": "cacheService",
+    "bytes": 17,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/SessionService.js",
+    "name": "SessionService",
+    "bytes": 13582,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getSessionService.js",
+    "name": "getSessionService",
+    "bytes": 122,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getMessageService.js",
+    "name": "getMessageService",
+    "bytes": 122,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/BotService.js",
+    "name": "BotService",
+    "bytes": 10608,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getBotService.js",
+    "name": "getBotService",
+    "bytes": 102,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/TelegramProvider.js",
+    "name": "TelegramProvider",
+    "bytes": 4869,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getChannelManager.js",
+    "name": "getChannelManager",
+    "bytes": 50,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t1",
+  "bundle": "backend",
+  "category": "services",
+  "title": "backend/services [2]",
+  "readmeDir": "reconstructed/backend/app/services",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/services/getBotManager.js",
+    "name": "getBotManager",
+    "bytes": 13,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/detectPackageManager.js",
+    "name": "detectPackageManager",
+    "bytes": 290,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/cacheControlService.js",
+    "name": "cacheControlService",
+    "bytes": 44,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/OperatorStatusService.js",
+    "name": "OperatorStatusService",
+    "bytes": 7240,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/getOperatorStatusService.js",
+    "name": "getOperatorStatusService",
+    "bytes": 157,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/services/initializeBotManager.js",
+    "name": "initializeBotManager",
+    "bytes": 653,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t2",
+  "bundle": "backend",
+  "category": "db",
+  "title": "backend/db [1]",
+  "readmeDir": "reconstructed/backend/app/db",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/db/schema.js",
+    "name": "ExpressionStatement_675078",
+    "bytes": 5230,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t3",
+  "bundle": "backend",
+  "category": "db",
+  "title": "backend/db [2]",
+  "readmeDir": "reconstructed/backend/app/db",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/db/schema__2.js",
+    "name": "init_schema3",
+    "bytes": 84343,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t4",
+  "bundle": "backend",
+  "category": "openlines",
+  "title": "backend/openlines [1]",
+  "readmeDir": "reconstructed/backend/app/openlines",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/openlines/ExpressionStatement.js",
+    "name": "ExpressionStatement_883307",
+    "bytes": 8838,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/ctxFor.js",
+    "name": "ctxFor",
+    "bytes": 243,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/getDefaultQueueForChannel.js",
+    "name": "getDefaultQueueForChannel",
+    "bytes": 168,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/sendOnboardingForNewSession.js",
+    "name": "sendOnboardingForNewSession",
+    "bytes": 349,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/setupTelegramHandlers.js",
+    "name": "setupTelegramHandlers",
+    "bytes": 2575,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleStartCommand.js",
+    "name": "handleStartCommand",
+    "bytes": 1811,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleOperatorCommand.js",
+    "name": "handleOperatorCommand",
+    "bytes": 581,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleTextMessage.js",
+    "name": "handleTextMessage",
+    "bytes": 1638,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handlePhotoMessage.js",
+    "name": "handlePhotoMessage",
+    "bytes": 1599,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleDocumentMessage.js",
+    "name": "handleDocumentMessage",
+    "bytes": 1693,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleVoiceMessage.js",
+    "name": "handleVoiceMessage",
+    "bytes": 1566,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleEditedTextMessage.js",
+    "name": "handleEditedTextMessage",
+    "bytes": 883,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t5",
+  "bundle": "backend",
+  "category": "openlines",
+  "title": "backend/openlines [2]",
+  "readmeDir": "reconstructed/backend/app/openlines",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/openlines/handleCallbackQuery.js",
+    "name": "handleCallbackQuery",
+    "bytes": 2790,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleWhatsAppIncomingMessage.js",
+    "name": "handleWhatsAppIncomingMessage",
+    "bytes": 3612,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/handleLanguageCallback.js",
+    "name": "handleLanguageCallback",
+    "bytes": 477,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/TelegramWebhookQueue.js",
+    "name": "TelegramWebhookQueue",
+    "bytes": 1204,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/enqueueTelegramWebhook.js",
+    "name": "enqueueTelegramWebhook",
+    "bytes": 302,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/enqueueWhatsAppWebhook.js",
+    "name": "enqueueWhatsAppWebhook",
+    "bytes": 469,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/openlines/DeliverySchema.js",
+    "name": "DeliverySchema",
+    "bytes": 187,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t6",
+  "bundle": "backend",
+  "category": "integrations/amocrm",
+  "title": "backend/integrations/amocrm",
+  "readmeDir": "reconstructed/backend/app/integrations/amocrm",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/integrations/amocrm/CacheControlService.js",
+    "name": "CacheControlService",
+    "bytes": 15395,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/amocrm/AmoCRMApiClient.js",
+    "name": "AmoCRMApiClient",
+    "bytes": 13368,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/amocrm/exchangeCodeAndStore.js",
+    "name": "exchangeCodeAndStore",
+    "bytes": 3449,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/amocrm/ExpressionStatement__2.js",
+    "name": "ExpressionStatement_6459587",
+    "bytes": 5424,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t7",
+  "bundle": "backend",
+  "category": "integrations/asterisk",
+  "title": "backend/integrations/asterisk",
+  "readmeDir": "reconstructed/backend/app/integrations/asterisk",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/AriService.js",
+    "name": "AriService",
+    "bytes": 13878,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/AmiService.js",
+    "name": "AmiService",
+    "bytes": 5972,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/getAriService.js",
+    "name": "getAriService",
+    "bytes": 166,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/getAmiService.js",
+    "name": "getAmiService",
+    "bytes": 132,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/cleanup.js",
+    "name": "cleanup",
+    "bytes": 720,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/ariService.js",
+    "name": "ariService",
+    "bytes": 15,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/amiService.js",
+    "name": "amiService",
+    "bytes": 15,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/asterisk/ExpressionStatement__3.js",
+    "name": "ExpressionStatement_6465011",
+    "bytes": 614,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t8",
+  "bundle": "backend",
+  "category": "integrations/whatsapp",
+  "title": "backend/integrations/whatsapp",
+  "readmeDir": "reconstructed/backend/app/integrations/whatsapp",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/MessageService.js",
+    "name": "MessageService",
+    "bytes": 9913,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/createWhatsAppApiClient.js",
+    "name": "createWhatsAppApiClient",
+    "bytes": 2251,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/WhatsAppProvider.js",
+    "name": "WhatsAppProvider",
+    "bytes": 5115,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/ChannelManager.js",
+    "name": "ChannelManager",
+    "bytes": 5047,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/WhatsappTemplateService.js",
+    "name": "WhatsappTemplateService",
+    "bytes": 3871,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/integrations/whatsapp/getWhatsappTemplateService.js",
+    "name": "getWhatsappTemplateService",
+    "bytes": 98,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t9",
+  "bundle": "backend",
+  "category": "licensing",
+  "title": "backend/licensing [1]",
+  "readmeDir": "reconstructed/backend/app/licensing",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/licensing/initializeDemoMode.js",
+    "name": "initializeDemoMode",
+    "bytes": 2233,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/verifyLicenseWithAgent.js",
+    "name": "verifyLicenseWithAgent",
+    "bytes": 574,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/runLicenseCheck.js",
+    "name": "runLicenseCheck",
+    "bytes": 625,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/fetchPublicKey.js",
+    "name": "fetchPublicKey",
+    "bytes": 440,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/fetchTokenFromAgent.js",
+    "name": "fetchTokenFromAgent",
+    "bytes": 575,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/refreshToken2.js",
+    "name": "refreshToken2",
+    "bytes": 718,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/initializeLicenseToken.js",
+    "name": "initializeLicenseToken",
+    "bytes": 389,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/verifyLicenseToken.js",
+    "name": "verifyLicenseToken",
+    "bytes": 408,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/canCreateOperator.js",
+    "name": "canCreateOperator",
+    "bytes": 1679,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/initializeAILicenseAgent.js",
+    "name": "initializeAILicenseAgent",
+    "bytes": 436,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/stopAILicenseAgent.js",
+    "name": "stopAILicenseAgent",
+    "bytes": 146,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/getAIGatewayJwt.js",
+    "name": "getAIGatewayJwt",
+    "bytes": 342,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t10",
+  "bundle": "backend",
+  "category": "licensing",
+  "title": "backend/licensing [2]",
+  "readmeDir": "reconstructed/backend/app/licensing",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/licensing/initializeLicense.js",
+    "name": "initializeLicense",
+    "bytes": 572,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/licensing/auditOperatorLimits.js",
+    "name": "auditOperatorLimits",
+    "bytes": 1913,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t11",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [1]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/_plugins.js",
+    "name": "ctx",
+    "bytes": 3241,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/routes/authController.js",
+    "name": "authController",
+    "bytes": 3444,
+    "routeCount": 4
+   },
+   {
+    "path": "reconstructed/backend/app/routes/usersController.js",
+    "name": "usersController",
+    "bytes": 6729,
+    "routeCount": 9
+   },
+   {
+    "path": "reconstructed/backend/app/routes/rolesController.js",
+    "name": "rolesController",
+    "bytes": 3585,
+    "routeCount": 8
+   },
+   {
+    "path": "reconstructed/backend/app/routes/rolesPermissionsController.js",
+    "name": "rolesPermissionsController",
+    "bytes": 1545,
+    "routeCount": 2
+   },
+   {
+    "path": "reconstructed/backend/app/routes/chartsController.js",
+    "name": "chartsController",
+    "bytes": 105865,
+    "routeCount": 44
+   }
+  ]
+ },
+ {
+  "id": "t12",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [2]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/positionsController.js",
+    "name": "positionsController",
+    "bytes": 3905,
+    "routeCount": 7
+   },
+   {
+    "path": "reconstructed/backend/app/routes/integrationsController.js",
+    "name": "integrationsController",
+    "bytes": 31055,
+    "routeCount": 31
+   },
+   {
+    "path": "reconstructed/backend/app/routes/workSchedulesController.js",
+    "name": "workSchedulesController",
+    "bytes": 2626,
+    "routeCount": 6
+   },
+   {
+    "path": "reconstructed/backend/app/routes/workTimeController.js",
+    "name": "workTimeController",
+    "bytes": 9698,
+    "routeCount": 7
+   },
+   {
+    "path": "reconstructed/backend/app/routes/cdrController.js",
+    "name": "cdrController",
+    "bytes": 1619,
+    "routeCount": 3
+   },
+   {
+    "path": "reconstructed/backend/app/routes/settingsController.js",
+    "name": "settingsController",
+    "bytes": 729,
+    "routeCount": 2
+   }
+  ]
+ },
+ {
+  "id": "t13",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [3]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/bitrix24Controller.js",
+    "name": "bitrix24Controller",
+    "bytes": 104038,
+    "routeCount": 42
+   },
+   {
+    "path": "reconstructed/backend/app/routes/amocrmController.js",
+    "name": "amocrmController",
+    "bytes": 30838,
+    "routeCount": 32
+   },
+   {
+    "path": "reconstructed/backend/app/routes/telegramController.js",
+    "name": "telegramController",
+    "bytes": 2261,
+    "routeCount": 2
+   },
+   {
+    "path": "reconstructed/backend/app/routes/whatsappController.js",
+    "name": "whatsappController",
+    "bytes": 1912,
+    "routeCount": 2
+   },
+   {
+    "path": "reconstructed/backend/app/routes/whatsappTemplatesController.js",
+    "name": "whatsappTemplatesController",
+    "bytes": 1384,
+    "routeCount": 5
+   },
+   {
+    "path": "reconstructed/backend/app/routes/channelsController.js",
+    "name": "channelsController",
+    "bytes": 9378,
+    "routeCount": 8
+   }
+  ]
+ },
+ {
+  "id": "t14",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [4]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/sessionsController.js",
+    "name": "sessionsController",
+    "bytes": 12518,
+    "routeCount": 16
+   },
+   {
+    "path": "reconstructed/backend/app/routes/operatorsController.js",
+    "name": "operatorsController",
+    "bytes": 3807,
+    "routeCount": 10
+   },
+   {
+    "path": "reconstructed/backend/app/routes/queuesController.js",
+    "name": "queuesController",
+    "bytes": 6579,
+    "routeCount": 9
+   },
+   {
+    "path": "reconstructed/backend/app/routes/quickRepliesController.js",
+    "name": "quickRepliesController",
+    "bytes": 4119,
+    "routeCount": 6
+   },
+   {
+    "path": "reconstructed/backend/app/routes/botsController.js",
+    "name": "botsController",
+    "bytes": 4726,
+    "routeCount": 5
+   },
+   {
+    "path": "reconstructed/backend/app/routes/analyticsController.js",
+    "name": "analyticsController",
+    "bytes": 6025,
+    "routeCount": 2
+   }
+  ]
+ },
+ {
+  "id": "t15",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [5]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/setupController.js",
+    "name": "setupController",
+    "bytes": 15713,
+    "routeCount": 5
+   },
+   {
+    "path": "reconstructed/backend/app/routes/blacklistController.js",
+    "name": "blacklistController",
+    "bytes": 6040,
+    "routeCount": 6
+   },
+   {
+    "path": "reconstructed/backend/app/routes/customWidgetsController.js",
+    "name": "customWidgetsController",
+    "bytes": 10636,
+    "routeCount": 7
+   },
+   {
+    "path": "reconstructed/backend/app/routes/qaRubricsController.js",
+    "name": "qaRubricsController",
+    "bytes": 8829,
+    "routeCount": 11
+   },
+   {
+    "path": "reconstructed/backend/app/routes/qaAnalyticsController.js",
+    "name": "qaAnalyticsController",
+    "bytes": 16860,
+    "routeCount": 6
+   },
+   {
+    "path": "reconstructed/backend/app/routes/qaAlertsController.js",
+    "name": "qaAlertsController",
+    "bytes": 8869,
+    "routeCount": 9
+   }
+  ]
+ },
+ {
+  "id": "t16",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [6]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/insightsController.js",
+    "name": "insightsController",
+    "bytes": 4709,
+    "routeCount": 5
+   },
+   {
+    "path": "reconstructed/backend/app/routes/reportsController.js",
+    "name": "reportsController",
+    "bytes": 2985,
+    "routeCount": 6
+   },
+   {
+    "path": "reconstructed/backend/app/routes/aiWebhookController.js",
+    "name": "aiWebhookController",
+    "bytes": 1603,
+    "routeCount": 1
+   },
+   {
+    "path": "reconstructed/backend/app/routes/aiCopilotController.js",
+    "name": "aiCopilotController",
+    "bytes": 15807,
+    "routeCount": 1
+   },
+   {
+    "path": "reconstructed/backend/app/routes/aiConversationsController.js",
+    "name": "aiConversationsController",
+    "bytes": 2800,
+    "routeCount": 5
+   },
+   {
+    "path": "reconstructed/backend/app/routes/aiRagController.js",
+    "name": "aiRagController",
+    "bytes": 591,
+    "routeCount": 1
+   }
+  ]
+ },
+ {
+  "id": "t17",
+  "bundle": "backend",
+  "category": "routes",
+  "title": "backend/routes [7]",
+  "readmeDir": "reconstructed/backend/app/routes",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/routes/agentProgramsController.js",
+    "name": "agentProgramsController",
+    "bytes": 6062,
+    "routeCount": 8
+   },
+   {
+    "path": "reconstructed/backend/app/routes/agentDeliveryController.js",
+    "name": "agentDeliveryController",
+    "bytes": 4279,
+    "routeCount": 8
+   },
+   {
+    "path": "reconstructed/backend/app/routes/agentTemplatesController.js",
+    "name": "agentTemplatesController",
+    "bytes": 1412,
+    "routeCount": 3
+   },
+   {
+    "path": "reconstructed/backend/app/routes/aiSettingsController.js",
+    "name": "aiSettingsController",
+    "bytes": 2714,
+    "routeCount": 2
+   },
+   {
+    "path": "reconstructed/backend/app/routes/_plugins__2.js",
+    "name": "diagnosticsPlugin",
+    "bytes": 420,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/routes/app__2.js",
+    "name": "app",
+    "bytes": 8202,
+    "routeCount": 14
+   }
+  ]
+ },
+ {
+  "id": "t18",
+  "bundle": "backend",
+  "category": "schemas",
+  "title": "backend/schemas",
+  "readmeDir": "reconstructed/backend/app/schemas",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/schemas/employeeCreateSchema.js",
+    "name": "employeeCreateSchema",
+    "bytes": 427,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/schemas/employeeUpdateSchema.js",
+    "name": "employeeUpdateSchema",
+    "bytes": 439,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t19",
+  "bundle": "backend",
+  "category": "util",
+  "title": "backend/util",
+  "readmeDir": "reconstructed/backend/app/util",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/util/getUserIdsFromFilters.js",
+    "name": "getUserIdsFromFilters",
+    "bytes": 674,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t20",
+  "bundle": "backend",
+  "category": "ai",
+  "title": "backend/ai",
+  "readmeDir": "reconstructed/backend/app/ai",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/ai/QA_RUBRIC_TEMPLATES.js",
+    "name": "QA_RUBRIC_TEMPLATES",
+    "bytes": 46834,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/evaluatePhraseCheck.js",
+    "name": "evaluatePhraseCheck",
+    "bytes": 556,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/applyRubricToTranscript.js",
+    "name": "applyRubricToTranscript",
+    "bytes": 2548,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/handleCallAnalyzed.js",
+    "name": "handleCallAnalyzed",
+    "bytes": 1862,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/saveTranscriptTurns.js",
+    "name": "saveTranscriptTurns",
+    "bytes": 951,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/hybridSearchTranscripts.js",
+    "name": "hybridSearchTranscripts",
+    "bytes": 2855,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/formatRagContext.js",
+    "name": "formatRagContext",
+    "bytes": 1028,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/rowToCallTableEntry.js",
+    "name": "rowToCallTableEntry",
+    "bytes": 1119,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/metricLabel.js",
+    "name": "metricLabel",
+    "bytes": 989,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/backend/app/ai/tableTitle.js",
+    "name": "tableTitle",
+    "bytes": 966,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t21",
+  "bundle": "backend",
+  "category": "app",
+  "title": "backend/app",
+  "readmeDir": "reconstructed/backend/app/app",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/backend/app/app.js",
+    "name": "apiController",
+    "bytes": 1015,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t22",
+  "bundle": "queue",
+  "category": "db",
+  "title": "queue/db [1]",
+  "readmeDir": "reconstructed/queue/app/db",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/db/schema.js",
+    "name": "ExpressionStatement_502406",
+    "bytes": 5230,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t23",
+  "bundle": "queue",
+  "category": "db",
+  "title": "queue/db [2]",
+  "readmeDir": "reconstructed/queue/app/db",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/db/schema__2.js",
+    "name": "init_schema2",
+    "bytes": 84034,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t24",
+  "bundle": "queue",
+  "category": "integrations/amocrm",
+  "title": "queue/integrations/amocrm [1]",
+  "readmeDir": "reconstructed/queue/app/integrations/amocrm",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/CacheControlService.js",
+    "name": "CacheControlService",
+    "bytes": 15342,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/AmoCRMQueueClient.js",
+    "name": "AmoCRMQueueClient",
+    "bytes": 8055,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMPipelines.js",
+    "name": "processAmoCRMPipelines",
+    "bytes": 3394,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMUsers.js",
+    "name": "processAmoCRMUsers",
+    "bytes": 3141,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMLeads.js",
+    "name": "processAmoCRMLeads",
+    "bytes": 5678,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMContacts.js",
+    "name": "processAmoCRMContacts",
+    "bytes": 4530,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMCompanies.js",
+    "name": "processAmoCRMCompanies",
+    "bytes": 4407,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processLeadDelete.js",
+    "name": "processLeadDelete",
+    "bytes": 534,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processContactDelete.js",
+    "name": "processContactDelete",
+    "bytes": 407,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processCompanyDelete.js",
+    "name": "processCompanyDelete",
+    "bytes": 410,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processSingleCDR.js",
+    "name": "processSingleCDR",
+    "bytes": 3576,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/processAmoCRMJob.js",
+    "name": "processAmoCRMJob",
+    "bytes": 1326,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t25",
+  "bundle": "queue",
+  "category": "integrations/amocrm",
+  "title": "queue/integrations/amocrm [2]",
+  "readmeDir": "reconstructed/queue/app/integrations/amocrm",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/amocrm/setupAmoCRMSyncJob.js",
+    "name": "setupAmoCRMSyncJob",
+    "bytes": 725,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t26",
+  "bundle": "queue",
+  "category": "integrations/bitrix24",
+  "title": "queue/integrations/bitrix24 [1]",
+  "readmeDir": "reconstructed/queue/app/integrations/bitrix24",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/mapBitrix24DealToSaleItem.js",
+    "name": "mapBitrix24DealToSaleItem",
+    "bytes": 1041,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processDepartments.js",
+    "name": "processDepartments",
+    "bytes": 3818,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processEmployees.js",
+    "name": "processEmployees",
+    "bytes": 5342,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processContacts.js",
+    "name": "processContacts",
+    "bytes": 5160,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processCompanies.js",
+    "name": "processCompanies",
+    "bytes": 5856,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processLeads.js",
+    "name": "processLeads",
+    "bytes": 5746,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processDeals.js",
+    "name": "processDeals",
+    "bytes": 10637,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processDealStageHistory.js",
+    "name": "processDealStageHistory",
+    "bytes": 10241,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processSingleDealStageChange.js",
+    "name": "processSingleDealStageChange",
+    "bytes": 4083,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processCategories.js",
+    "name": "processCategories",
+    "bytes": 2578,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processStatuses.js",
+    "name": "processStatuses",
+    "bytes": 5151,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processWorkTime.js",
+    "name": "processWorkTime",
+    "bytes": 4044,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t27",
+  "bundle": "queue",
+  "category": "integrations/bitrix24",
+  "title": "queue/integrations/bitrix24 [2]",
+  "readmeDir": "reconstructed/queue/app/integrations/bitrix24",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processBitrix24EventsSync.js",
+    "name": "processBitrix24EventsSync",
+    "bytes": 2995,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/processJob.js",
+    "name": "processJob",
+    "bytes": 1246,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/handleShutdown.js",
+    "name": "handleShutdown",
+    "bytes": 1234,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/bitrix24/ExpressionStatement.js",
+    "name": "ExpressionStatement_1690826",
+    "bytes": 169,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t28",
+  "bundle": "queue",
+  "category": "openlines",
+  "title": "queue/openlines [1]",
+  "readmeDir": "reconstructed/queue/app/openlines",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/openlines/parseWebhookEvent.js",
+    "name": "parseWebhookEvent",
+    "bytes": 1327,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processWebhook.js",
+    "name": "processWebhook",
+    "bytes": 1950,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleDealWebhook.js",
+    "name": "handleDealWebhook",
+    "bytes": 4307,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/mapEventTypeToWebhookEvent.js",
+    "name": "mapEventTypeToWebhookEvent",
+    "bytes": 714,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processAmoCRMWebhook.js",
+    "name": "processAmoCRMWebhook",
+    "bytes": 1965,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processLeadWebhook.js",
+    "name": "processLeadWebhook",
+    "bytes": 2132,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processContactWebhook.js",
+    "name": "processContactWebhook",
+    "bytes": 1469,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processCompanyWebhook.js",
+    "name": "processCompanyWebhook",
+    "bytes": 1494,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processAmoCRMCDR.js",
+    "name": "processAmoCRMCDR",
+    "bytes": 2870,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/processAmoCRMCDRBatch.js",
+    "name": "processAmoCRMCDRBatch",
+    "bytes": 2970,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/ctxFor.js",
+    "name": "ctxFor",
+    "bytes": 243,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/getDefaultQueueForChannel.js",
+    "name": "getDefaultQueueForChannel",
+    "bytes": 168,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t29",
+  "bundle": "queue",
+  "category": "openlines",
+  "title": "queue/openlines [2]",
+  "readmeDir": "reconstructed/queue/app/openlines",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/openlines/sendOnboardingForNewSession.js",
+    "name": "sendOnboardingForNewSession",
+    "bytes": 347,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/setupTelegramHandlers.js",
+    "name": "setupTelegramHandlers",
+    "bytes": 2503,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleStartCommand.js",
+    "name": "handleStartCommand",
+    "bytes": 1797,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleOperatorCommand.js",
+    "name": "handleOperatorCommand",
+    "bytes": 576,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleTextMessage.js",
+    "name": "handleTextMessage",
+    "bytes": 1624,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handlePhotoMessage.js",
+    "name": "handlePhotoMessage",
+    "bytes": 1580,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleDocumentMessage.js",
+    "name": "handleDocumentMessage",
+    "bytes": 1676,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleVoiceMessage.js",
+    "name": "handleVoiceMessage",
+    "bytes": 1550,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleEditedTextMessage.js",
+    "name": "handleEditedTextMessage",
+    "bytes": 876,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleCallbackQuery.js",
+    "name": "handleCallbackQuery",
+    "bytes": 2770,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleWhatsAppIncomingMessage.js",
+    "name": "handleWhatsAppIncomingMessage",
+    "bytes": 3600,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/handleLanguageCallback.js",
+    "name": "handleLanguageCallback",
+    "bytes": 475,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t30",
+  "bundle": "queue",
+  "category": "openlines",
+  "title": "queue/openlines [3]",
+  "readmeDir": "reconstructed/queue/app/openlines",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/openlines/processOpenlinesWebhook.js",
+    "name": "processOpenlinesWebhook",
+    "bytes": 590,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/deliverAlert.js",
+    "name": "deliverAlert",
+    "bytes": 1350,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/AgentScheduler.js",
+    "name": "AgentScheduler",
+    "bytes": 4426,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/openlines/DeliveryWorker.js",
+    "name": "DeliveryWorker",
+    "bytes": 2039,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t31",
+  "bundle": "queue",
+  "category": "licensing",
+  "title": "queue/licensing",
+  "readmeDir": "reconstructed/queue/app/licensing",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/licensing/ensureJwt.js",
+    "name": "ensureJwt",
+    "bytes": 350,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t32",
+  "bundle": "queue",
+  "category": "services",
+  "title": "queue/services",
+  "readmeDir": "reconstructed/queue/app/services",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/services/cacheService.js",
+    "name": "cacheService",
+    "bytes": 17,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/SessionService.js",
+    "name": "SessionService",
+    "bytes": 13554,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/getSessionService.js",
+    "name": "getSessionService",
+    "bytes": 122,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/getMessageService.js",
+    "name": "getMessageService",
+    "bytes": 122,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/BotService.js",
+    "name": "BotService",
+    "bytes": 10564,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/getBotService.js",
+    "name": "getBotService",
+    "bytes": 102,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/TelegramProvider.js",
+    "name": "TelegramProvider",
+    "bytes": 4860,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/getChannelManager.js",
+    "name": "getChannelManager",
+    "bytes": 50,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/getBotManager.js",
+    "name": "getBotManager",
+    "bytes": 31,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/services/MetricsCollector.js",
+    "name": "MetricsCollector",
+    "bytes": 1333,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t33",
+  "bundle": "queue",
+  "category": "integrations/asterisk",
+  "title": "queue/integrations/asterisk",
+  "readmeDir": "reconstructed/queue/app/integrations/asterisk",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/asterisk/ariService.js",
+    "name": "ariService",
+    "bytes": 15,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/asterisk/amiService.js",
+    "name": "amiService",
+    "bytes": 15,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/asterisk/cleanup.js",
+    "name": "cleanup",
+    "bytes": 720,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t34",
+  "bundle": "queue",
+  "category": "workers",
+  "title": "queue/workers",
+  "readmeDir": "reconstructed/queue/app/workers",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/workers/processCallAnalysis.js",
+    "name": "processCallAnalysis",
+    "bytes": 1834,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/workers/processAnomalyDetection.js",
+    "name": "processAnomalyDetection",
+    "bytes": 541,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/workers/processOperatorCoach.js",
+    "name": "processOperatorCoach",
+    "bytes": 1469,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/workers/processThemeDiscovery.js",
+    "name": "processThemeDiscovery",
+    "bytes": 4622,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/workers/processResult.js",
+    "name": "processResult",
+    "bytes": 4239,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t35",
+  "bundle": "queue",
+  "category": "ai",
+  "title": "queue/ai",
+  "readmeDir": "reconstructed/queue/app/ai",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/ai/evaluatePhraseCheck.js",
+    "name": "evaluatePhraseCheck",
+    "bytes": 553,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/applyRubricToTranscript.js",
+    "name": "applyRubricToTranscript",
+    "bytes": 2618,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/processQaRescore.js",
+    "name": "processQaRescore",
+    "bytes": 3780,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/calculateAnomalies.js",
+    "name": "calculateAnomalies",
+    "bytes": 3424,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/loadOperatorsWithTodayCalls.js",
+    "name": "loadOperatorsWithTodayCalls",
+    "bytes": 1205,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/loadBaselineQa.js",
+    "name": "loadBaselineQa",
+    "bytes": 476,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/buildOperatorCoachInsight.js",
+    "name": "buildOperatorCoachInsight",
+    "bytes": 5031,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/loadWindowStats.js",
+    "name": "loadWindowStats",
+    "bytes": 784,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/processTeamPulse.js",
+    "name": "processTeamPulse",
+    "bytes": 6032,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/ai/processEmbedTranscript.js",
+    "name": "processEmbedTranscript",
+    "bytes": 2962,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t36",
+  "bundle": "queue",
+  "category": "integrations/whatsapp",
+  "title": "queue/integrations/whatsapp",
+  "readmeDir": "reconstructed/queue/app/integrations/whatsapp",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/queue/app/integrations/whatsapp/MessageService.js",
+    "name": "MessageService",
+    "bytes": 9879,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/whatsapp/createWhatsAppApiClient.js",
+    "name": "createWhatsAppApiClient",
+    "bytes": 2220,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/whatsapp/WhatsAppProvider.js",
+    "name": "WhatsAppProvider",
+    "bytes": 5091,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/queue/app/integrations/whatsapp/ChannelManager.js",
+    "name": "ChannelManager",
+    "bytes": 5031,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t37",
+  "bundle": "replication",
+  "category": "db",
+  "title": "replication/db",
+  "readmeDir": "reconstructed/replication/app/db",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/db/schema.js",
+    "name": "ExpressionStatement_1983789",
+    "bytes": 5229,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t38",
+  "bundle": "replication",
+  "category": "openlines",
+  "title": "replication/openlines [1]",
+  "readmeDir": "reconstructed/replication/app/openlines",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/openlines/openline_channel_type.js",
+    "name": "openline_channel_type",
+    "bytes": 89,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/cdr.js",
+    "name": "cdr",
+    "bytes": 1865,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_queue_operators.js",
+    "name": "openline_queue_operators",
+    "bytes": 1385,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_sessions.js",
+    "name": "openline_sessions",
+    "bytes": 1653,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_messages.js",
+    "name": "openline_messages",
+    "bytes": 1242,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_operator_status.js",
+    "name": "openline_operator_status",
+    "bytes": 879,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_bots.js",
+    "name": "openline_bots",
+    "bytes": 1036,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/whatsapp_templates.js",
+    "name": "whatsapp_templates",
+    "bytes": 1329,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/openline_sessionsRelations.js",
+    "name": "openline_sessionsRelations",
+    "bytes": 353,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/syncCDRToAmoCRM.js",
+    "name": "syncCDRToAmoCRM",
+    "bytes": 1006,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/enqueueCallAnalysis.js",
+    "name": "enqueueCallAnalysis",
+    "bytes": 891,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/openlines/resolveIncomingDID.js",
+    "name": "resolveIncomingDID",
+    "bytes": 463,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t39",
+  "bundle": "replication",
+  "category": "openlines",
+  "title": "replication/openlines [2]",
+  "readmeDir": "reconstructed/replication/app/openlines",
+  "writeReadme": false,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/openlines/main.js",
+    "name": "main",
+    "bytes": 8285,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t40",
+  "bundle": "replication",
+  "category": "util",
+  "title": "replication/util",
+  "readmeDir": "reconstructed/replication/app/util",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/util/users.js",
+    "name": "users",
+    "bytes": 834,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/util/custom_widget_layouts.js",
+    "name": "custom_widget_layouts",
+    "bytes": 1017,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/util/usersRelations.js",
+    "name": "usersRelations",
+    "bytes": 2765,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/util/integration_sale_itemsRelations.js",
+    "name": "integration_sale_itemsRelations",
+    "bytes": 828,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t41",
+  "bundle": "replication",
+  "category": "integrations/amocrm",
+  "title": "replication/integrations/amocrm",
+  "readmeDir": "reconstructed/replication/app/integrations/amocrm",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/integrations/amocrm/amocrm_call_logs.js",
+    "name": "amocrm_call_logs",
+    "bytes": 1400,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/integrations/amocrm/loadAmoCRMSettings.js",
+    "name": "loadAmoCRMSettings",
+    "bytes": 1170,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t42",
+  "bundle": "replication",
+  "category": "ai",
+  "title": "replication/ai",
+  "readmeDir": "reconstructed/replication/app/ai",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/replication/app/ai/ai_transcripts.js",
+    "name": "ai_transcripts",
+    "bytes": 1790,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/ai/ai_transcript_chunks.js",
+    "name": "ai_transcript_chunks",
+    "bytes": 1172,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/ai/ai_transcript_turns.js",
+    "name": "ai_transcript_turns",
+    "bytes": 915,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/ai/ai_alerts.js",
+    "name": "ai_alerts",
+    "bytes": 831,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/replication/app/ai/ai_insights.js",
+    "name": "ai_insights",
+    "bytes": 1614,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t43",
+  "bundle": "sync_schedules",
+  "category": "db",
+  "title": "sync_schedules/db",
+  "readmeDir": "reconstructed/sync_schedules/app/db",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/db/schema.js",
+    "name": "ExpressionStatement_292619",
+    "bytes": 5229,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t44",
+  "bundle": "sync_schedules",
+  "category": "openlines",
+  "title": "sync_schedules/openlines",
+  "readmeDir": "reconstructed/sync_schedules/app/openlines",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_channel_type.js",
+    "name": "openline_channel_type",
+    "bytes": 89,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/cdr.js",
+    "name": "cdr",
+    "bytes": 1865,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_queue_operators.js",
+    "name": "openline_queue_operators",
+    "bytes": 1385,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_sessions.js",
+    "name": "openline_sessions",
+    "bytes": 1653,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_messages.js",
+    "name": "openline_messages",
+    "bytes": 1242,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_operator_status.js",
+    "name": "openline_operator_status",
+    "bytes": 879,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_bots.js",
+    "name": "openline_bots",
+    "bytes": 1036,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/whatsapp_templates.js",
+    "name": "whatsapp_templates",
+    "bytes": 1329,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/openlines/openline_sessionsRelations.js",
+    "name": "openline_sessionsRelations",
+    "bytes": 353,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t45",
+  "bundle": "sync_schedules",
+  "category": "util",
+  "title": "sync_schedules/util",
+  "readmeDir": "reconstructed/sync_schedules/app/util",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/util/users.js",
+    "name": "users",
+    "bytes": 834,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/util/custom_widget_layouts.js",
+    "name": "custom_widget_layouts",
+    "bytes": 1017,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/util/usersRelations.js",
+    "name": "usersRelations",
+    "bytes": 2765,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/util/integration_sale_itemsRelations.js",
+    "name": "integration_sale_itemsRelations",
+    "bytes": 828,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t46",
+  "bundle": "sync_schedules",
+  "category": "integrations/amocrm",
+  "title": "sync_schedules/integrations/amocrm",
+  "readmeDir": "reconstructed/sync_schedules/app/integrations/amocrm",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/integrations/amocrm/amocrm_call_logs.js",
+    "name": "amocrm_call_logs",
+    "bytes": 1400,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/integrations/amocrm/CacheControlService.js",
+    "name": "CacheControlService",
+    "bytes": 15335,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t47",
+  "bundle": "sync_schedules",
+  "category": "ai",
+  "title": "sync_schedules/ai",
+  "readmeDir": "reconstructed/sync_schedules/app/ai",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/ai/ai_transcripts.js",
+    "name": "ai_transcripts",
+    "bytes": 1790,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/ai/ai_transcript_chunks.js",
+    "name": "ai_transcript_chunks",
+    "bytes": 1172,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/ai/ai_transcript_turns.js",
+    "name": "ai_transcript_turns",
+    "bytes": 915,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/ai/ai_alerts.js",
+    "name": "ai_alerts",
+    "bytes": 831,
+    "routeCount": 0
+   },
+   {
+    "path": "reconstructed/sync_schedules/app/ai/ai_insights.js",
+    "name": "ai_insights",
+    "bytes": 1614,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t48",
+  "bundle": "sync_schedules",
+  "category": "services",
+  "title": "sync_schedules/services",
+  "readmeDir": "reconstructed/sync_schedules/app/services",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/services/cacheControlService.js",
+    "name": "cacheControlService",
+    "bytes": 61,
+    "routeCount": 0
+   }
+  ]
+ },
+ {
+  "id": "t49",
+  "bundle": "sync_schedules",
+  "category": "integrations/bitrix24",
+  "title": "sync_schedules/integrations/bitrix24",
+  "readmeDir": "reconstructed/sync_schedules/app/integrations/bitrix24",
+  "writeReadme": true,
+  "files": [
+   {
+    "path": "reconstructed/sync_schedules/app/integrations/bitrix24/main.js",
+    "name": "main",
+    "bytes": 1220,
+    "routeCount": 0
+   }
+  ]
+ }
+]

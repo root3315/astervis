@@ -1,0 +1,50 @@
+# Isolated smoke test for the reconstructed Astervis backend bundle.
+# Separate network, ephemeral throwaway DB/Redis, app on host port 15555.
+# Does NOT touch the live astervis-* stack. Tear down with: docker compose -p astervis-smoke down -v
+name: astervis-smoke
+
+services:
+  smoke-db:
+    image: timescale/timescaledb-ha:pg16-all
+    environment:
+      POSTGRES_USER: astervis
+      POSTGRES_PASSWORD: smoke_pw
+      POSTGRES_DB: astervis
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U astervis -d astervis"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    networks: [smoke]
+
+  smoke-redis:
+    image: redis:latest
+    networks: [smoke]
+
+  smoke-app:
+    build: .
+    environment:
+      POSTGRES_HOST: smoke-db
+      POSTGRES_PORT: "5432"
+      POSTGRES_USER: astervis
+      POSTGRES_PASSWORD: smoke_pw
+      POSTGRES_DB: astervis
+      REDIS_HOST: smoke-redis
+      REDIS_PORT: "6379"
+      PORT: "5555"
+      BETTER_AUTH_SECRET: smoke_secret_0123456789abcdef0123456789
+      LICENSE_KEY: ast-smoke-test
+      NODE_ENV: production
+      PROJECT_PREFIX: astervis_cdr_
+    ports:
+      - "15555:3000"
+    depends_on:
+      smoke-db:
+        condition: service_healthy
+      smoke-redis:
+        condition: service_started
+    networks: [smoke]
+
+networks:
+  smoke:
+    name: astervis-smoke-net
